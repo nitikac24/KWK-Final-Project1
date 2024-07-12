@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  KWK Final Project
 //
-//  Created by star girl on 7/12/24.
+//  Created by mandey on 7/12/24.
 //
 
 import SwiftUI
