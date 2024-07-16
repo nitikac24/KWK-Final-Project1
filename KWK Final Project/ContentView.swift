@@ -10,14 +10,23 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
+        ZStack {
+            Color("BackColor").ignoresSafeArea()
             VStack {
-                NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
-                    Text("Get Started")
-
-                }
-                .padding()
-                .border(Color.black)
+                Image("WaveHeat")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                
             }
+            VStack {
+                Spacer()
+                NavigationLink(destination: ContentView()) {
+                    Image(/*@START_MENU_TOKEN@*/"Image Name"/*@END_MENU_TOKEN@*/)
+            }
+                    
+            }
+
+        }
         }
     }
 }
