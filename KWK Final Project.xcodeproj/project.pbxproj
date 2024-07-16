@@ -14,6 +14,7 @@
 		94106A242C41C2DA006F1743 /* KWK_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94106A232C41C2DA006F1743 /* KWK_Final_ProjectTests.swift */; };
 		94106A2E2C41C2DB006F1743 /* KWK_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94106A2D2C41C2DB006F1743 /* KWK_Final_ProjectUITests.swift */; };
 		94106A302C41C2DB006F1743 /* KWK_Final_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94106A2F2C41C2DB006F1743 /* KWK_Final_ProjectUITestsLaunchTests.swift */; };
+		BDF559822C470A8D0086DA53 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF559812C470A8D0086DA53 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		94106A292C41C2DB006F1743 /* KWK Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWK Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94106A2D2C41C2DB006F1743 /* KWK_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		94106A2F2C41C2DB006F1743 /* KWK_Final_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Final_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDF559812C470A8D0086DA53 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				94106A122C41C2DA006F1743 /* KWK_Final_ProjectApp.swift */,
 				94106A142C41C2DA006F1743 /* ContentView.swift */,
+				BDF559812C470A8D0086DA53 /* Home.swift */,
 				94106A162C41C2DA006F1743 /* Assets.xcassets */,
 				94106A182C41C2DA006F1743 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94106A152C41C2DA006F1743 /* ContentView.swift in Sources */,
+				BDF559822C470A8D0086DA53 /* Home.swift in Sources */,
 				94106A132C41C2DA006F1743 /* KWK_Final_ProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
