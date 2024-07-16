@@ -20,7 +20,7 @@ struct ContentView: View {
             }
             VStack {
                 Spacer()
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: Home()) {
                     Image(/*@START_MENU_TOKEN@*/"Image Name"/*@END_MENU_TOKEN@*/)
             }
                     
