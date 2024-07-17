@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78F6EA522C483F330079EAF9 /* WaterTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F6EA512C483F330079EAF9 /* WaterTracker.swift */; };
 		94106A132C41C2DA006F1743 /* KWK_Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94106A122C41C2DA006F1743 /* KWK_Final_ProjectApp.swift */; };
 		94106A152C41C2DA006F1743 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94106A142C41C2DA006F1743 /* ContentView.swift */; };
 		94106A172C41C2DA006F1743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94106A162C41C2DA006F1743 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78F6EA512C483F330079EAF9 /* WaterTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTracker.swift; sourceTree = "<group>"; };
 		94106A0F2C41C2DA006F1743 /* KWK Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94106A122C41C2DA006F1743 /* KWK_Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Final_ProjectApp.swift; sourceTree = "<group>"; };
 		94106A142C41C2DA006F1743 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				94106A122C41C2DA006F1743 /* KWK_Final_ProjectApp.swift */,
 				94106A142C41C2DA006F1743 /* ContentView.swift */,
 				BDF559812C470A8D0086DA53 /* Home.swift */,
+				78F6EA512C483F330079EAF9 /* WaterTracker.swift */,
 				94106A162C41C2DA006F1743 /* Assets.xcassets */,
 				94106A182C41C2DA006F1743 /* Preview Content */,
 			);
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F6EA522C483F330079EAF9 /* WaterTracker.swift in Sources */,
 				94106A152C41C2DA006F1743 /* ContentView.swift in Sources */,
 				BDF559822C470A8D0086DA53 /* Home.swift in Sources */,
 				94106A132C41C2DA006F1743 /* KWK_Final_ProjectApp.swift in Sources */,
